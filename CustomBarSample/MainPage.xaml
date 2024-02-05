@@ -5,7 +5,7 @@
              xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
              x:Class="CustomBarSample.MainPage">
 
-    <Border Margin="25" Padding="10,10,10,0" >
+    <Border Margin="25" Padding="10,10,10,5" >
 
         <chart:SfCartesianChart x:Name="Chart" PaletteBrushes="{Binding CustomBrushes}" 
                                 IsTransposed="True" Grid.Row="1" Grid.Column="0" 
@@ -16,6 +16,7 @@
             </chart:SfCartesianChart.BindingContext>
 
             <chart:SfCartesianChart.Title>
+                
                 <HorizontalStackLayout>
                     <Image Source="finance.png"
                            Margin="5,0,5,0" 
@@ -31,6 +32,7 @@
                         Margin="0,2,0,0" />
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
+                
             </chart:SfCartesianChart.Title>
 
             <chart:SfCartesianChart.XAxes>
@@ -45,7 +47,7 @@
                                      ShowMajorGridLines="True"
                                      Maximum="70" Minimum="-70" >
                     <chart:NumericalAxis.LabelStyle>
-                        <chart:ChartAxisLabelStyle LabelFormat="0'B';#.##'B" />
+                        <chart:ChartAxisLabelStyle LabelFormat="0'B';#.##'B" FontSize="{OnPlatform Android=10 , iOS=10, WinUI=12, MacCatalyst=12}" />
                     </chart:NumericalAxis.LabelStyle>
                 </chart:NumericalAxis>
             </chart:SfCartesianChart.YAxes>
@@ -81,7 +83,5 @@
                 </local:ColumnSeriesExt>
             </chart:SfCartesianChart.Series>
         </chart:SfCartesianChart>
-        
     </Border>
-
 </ContentPage>
