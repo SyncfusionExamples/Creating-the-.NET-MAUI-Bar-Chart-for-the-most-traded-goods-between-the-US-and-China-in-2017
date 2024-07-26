@@ -8,4 +8,4 @@ This sample demonstrates how to create a .Net Maui Bar chart for most traded goo
 
 In this sample, we have enhance the appearance of Bar Chart by customizing the Segment with integrating images and description to the relavent data source with underline.
 
-for more details on the step - by - step procedure, refer to the blog of [Most traded goods between US and China in 2017]().
+for more details on the step - by - step procedure, refer to the blog of [Most traded goods between US and China in 2017](https://www.syncfusion.com/blogs/post/maui-bar-chart-traded-goods-us).
