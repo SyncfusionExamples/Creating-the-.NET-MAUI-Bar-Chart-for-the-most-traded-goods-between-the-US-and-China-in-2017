@@ -1,6 +1,6 @@
 # Creating-the-.NET-MAUI-Bar-Chart-for-the-most-traded-goods-between-the-US-and-China-in-2017
 
-This sample demonstrates how to create a .Net Maui Bar chart for most traded goods between the US and China in 2017.
+This sample demonstrates how to create a [.Net MAUI Bar chart](https://help.syncfusion.com/maui/cartesian-charts/barchart) for most traded goods between the US and China in 2017.
 
 A bar chart uses rectangular bars to represent data values. In the context of analyzing the U.S.’s import and export trends with China, a bar chart can effectively illustrate key trends in trade flows.
 
